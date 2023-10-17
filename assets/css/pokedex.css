@@ -80,10 +80,15 @@
 
 .pokemon {
     display: flex;
+    cursor: pointer;
     flex-direction: column;
     margin: .5rem;
     padding: 1rem;
     border-radius: 1rem;
+}
+
+ol a {
+    text-decoration: none;
 }
 
 .pokemon .number {
